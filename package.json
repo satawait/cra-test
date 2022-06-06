@@ -13,6 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "ci": "^2.2.0",
     "serve": "^13.0.2"
   },
   "scripts": {
