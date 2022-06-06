@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+  traefik:
+    image: traefik:v2.5
+    # command: --api.insecure=true --providers.docker
+    ports:
+      - "88:80"
+      - "443:443"
+      - "8090:8080"
+    volumes:
+      - ./traefik.toml:/etc/traefik/traefik.toml
+      - ./acme.json:/acme.json
+      - ./log:/log
+      - /var/run/docker.sock:/var/run/docker.sock
+    container_name: traefik
+    env_file: .env.traefik
+    labels:
+      - "traefik.http.routers.api.rule=Host(`traefik.test.local`)"
+      - "traefik.http.routers.api.service=api@internal"
+  # reverse-proxy:
+  #   # The official v2 Traefik docker image
+  #   image: traefik:v2.5
+  #   # 启用dashboard并使用docker作为provider
+  #   command: --api.insecure=true --providers.docker
+  #   ports:
+  #     # The HTTP port
+  #     - "88:80"
+  #     # The Web UI (enabled by --api.insecure=true)
+  #     - "8080:8080"
+  #   volumes:
+  #     # So that Traefik can listen to the Docker events
+  #     - /var/run/docker.sock:/var/run/docker.sock
+
+  # 改镜像会暴露出自身的 `header` 信息
+  whoami:
+    image: traefik/whoami
+    labels:
+      # 设置Host 为 whoami.docker.localhost 进行域名访问
+      - "traefik.http.routers.whoami.rule=Host(`whoami.test.local`)"
+
+# 使用已存在的 traefik 的 network
+# networks:
+#   default:
+#     external:
+#       name: traefik_default

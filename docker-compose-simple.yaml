@@ -1,0 +1,20 @@
+version: "3"
+services:
+  build-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 6006:3000
+  build-app-nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.simple
+    ports:
+      - 6006:80
+  build-app-nginx-router:
+    build:
+      context: .
+      dockerfile: Dockerfile.router
+    ports:
+      - 6006:80
