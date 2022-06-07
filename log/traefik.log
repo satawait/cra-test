@@ -177,3 +177,158 @@
 {"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-06T07:32:37Z"}
 {"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-06T07:32:37Z"}
 {"level":"error","msg":"Cannot connect to docker server context canceled","providerName":"docker","time":"2022-06-06T07:32:37Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T01:37:31Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:37:32Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:37:32Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:37:32Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:37:32Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:37:32Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:37:32Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-07T01:41:42Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-07T01:41:42Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-07T01:41:42Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-07T01:41:42Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-07T01:41:42Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-07T01:41:42Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T01:42:01Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:42:01Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:42:01Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:42:01Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:42:01Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:42:01Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:42:01Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:42:05Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:42:05Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:42:05Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-07T01:47:41Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-07T01:47:41Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-07T01:47:41Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-07T01:47:41Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-07T01:47:41Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-07T01:47:41Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T01:53:01Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:53:02Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:53:02Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:53:02Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:53:02Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:53:02Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:53:02Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-07T01:54:41Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-07T01:54:41Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-07T01:54:41Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-07T01:54:41Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-07T01:54:42Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-07T01:54:42Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T01:54:53Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:54:53Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:54:53Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:54:53Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:54:53Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:54:53Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:54:53Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T01:55:10Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:55:11Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:55:11Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:55:11Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:55:11Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:55:11Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:55:11Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-07T01:55:56Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-07T01:55:56Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-07T01:55:56Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-07T01:55:56Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-07T01:55:56Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-07T01:55:56Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T01:56:01Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:56:01Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:56:01Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:56:01Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T01:56:01Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T01:56:01Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T01:56:01Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-07T02:04:55Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-07T02:04:55Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-07T02:04:55Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-07T02:04:55Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-07T02:04:55Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-07T02:04:55Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T02:05:04Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:05:04Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:05:04Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:05:04Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:05:05Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:05:05Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:05:05Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T02:05:44Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:05:44Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:05:44Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:05:44Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:05:44Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:05:44Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:05:44Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T02:07:46Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:07:46Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:07:46Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:07:46Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:07:46Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:07:46Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:07:46Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T02:10:26Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:10:26Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:10:26Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:10:26Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:10:26Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:10:26Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:10:26Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-07T02:11:44Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-07T02:11:44Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-07T02:11:44Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-07T02:11:44Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-07T02:11:44Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-07T02:11:44Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T02:11:45Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:11:45Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:11:45Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:11:45Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:11:45Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:11:45Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:11:45Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:12:36Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:12:36Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:12:36Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:16:26Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:16:26Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:16:26Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:16:28Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:16:28Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:16:28Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:17:02Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:17:02Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:17:02Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:17:07Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:17:07Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:17:07Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T02:17:07Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:26:55Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:26:55Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:26:55Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:27:16Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:27:16Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:27:16Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T02:27:16Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:28:28Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:28:28Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:28:28Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:28:37Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:28:37Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:28:37Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T02:28:37Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T02:29:10Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T02:29:10Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T02:29:10Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-07T02:29:12Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-07T02:29:12Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-07T02:29:12Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-07T02:29:12Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-07T02:29:12Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-07T02:29:12Z"}

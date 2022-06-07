@@ -16,7 +16,7 @@ services:
     container_name: traefik
     env_file: .env.traefik
     labels:
-      - "traefik.http.routers.api.rule=Host(`traefik.test.local`)"
+      - "traefik.http.routers.api.rule=Host(`traefik.home.local`)"
       - "traefik.http.routers.api.service=api@internal"
   # reverse-proxy:
   #   # The official v2 Traefik docker image
@@ -32,12 +32,12 @@ services:
   #     # So that Traefik can listen to the Docker events
   #     - /var/run/docker.sock:/var/run/docker.sock
 
-  # 改镜像会暴露出自身的 `header` 信息
-  whoami:
-    image: traefik/whoami
-    labels:
-      # 设置Host 为 whoami.docker.localhost 进行域名访问
-      - "traefik.http.routers.whoami.rule=Host(`whoami.test.local`)"
+  # # 改镜像会暴露出自身的 `header` 信息
+  # whoami:
+  #   image: traefik/whoami
+  #   labels:
+  #     # 设置Host 为 whoami.docker.localhost 进行域名访问
+  #     - "traefik.http.routers.whoami.rule=Host(`whoami.test.local`)"
 
 # 使用已存在的 traefik 的 network
 # networks:
