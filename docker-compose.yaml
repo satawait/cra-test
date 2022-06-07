@@ -16,7 +16,7 @@ services:
     container_name: traefik
     env_file: .env.traefik
     labels:
-      - "traefik.http.routers.api.rule=Host(`traefik.home.local`)"
+      - "traefik.http.routers.api.rule=Host(`traefik.a.local`)"
       - "traefik.http.routers.api.service=api@internal"
   # reverse-proxy:
   #   # The official v2 Traefik docker image
