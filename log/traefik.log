@@ -409,3 +409,336 @@
 {"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T06:49:16Z"}
 {"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T06:49:16Z"}
 {"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T06:49:16Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-07T08:49:17Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-07T08:49:17Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-07T08:49:17Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-07T08:49:17Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-07T08:49:17Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-07T08:49:17Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T11:14:53Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:14:54Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:14:54Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:14:54Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:14:54Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:14:54Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:14:54Z"}
+{"container":"wonderful-brattain-0d1da41291c4a458381fa9d715e35d60add701b511ebd308aac563fc6556d102","level":"error","msg":"service \"wonderful-brattain\" error: port is missing","providerName":"docker","time":"2022-06-07T11:20:02Z"}
+{"container":"amazing-shamir-4d01ae3d4ff9b8c54ad0d984d439c09c3310a9cf6807690a784f8e9229a7daad","level":"error","msg":"service \"amazing-shamir\" error: port is missing","providerName":"docker","time":"2022-06-07T11:21:53Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:23:52Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:23:52Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:23:52Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T11:23:52Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:24:31Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:24:31Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:24:31Z"}
+{"container":"zen-yonath-15f3d6fd83bd1a864e616947d685ba76974b30eb31e70a942185edb791c2760d","level":"error","msg":"service \"zen-yonath\" error: port is missing","providerName":"docker","time":"2022-06-07T11:25:14Z"}
+{"container":"charming-kilby-f2fcfd461f9f92acc317fa08689fd62f59216f25bd78ae82a59dcaa30a0b0231","level":"error","msg":"service \"charming-kilby\" error: port is missing","providerName":"docker","time":"2022-06-07T11:26:57Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:27:16Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:27:16Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:27:16Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T11:27:16Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:29:29Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:29:29Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:29:29Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:29:34Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:29:34Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:29:34Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T11:29:34Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:30:22Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:30:22Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:30:22Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:30:28Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:30:28Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:30:28Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T11:30:28Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:30:29Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:30:29Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:30:29Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T11:30:29Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:31:46Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:31:46Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:31:46Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-07T11:32:02Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-07T11:32:02Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-07T11:32:02Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-07T11:32:02Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-07T11:32:02Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-07T11:32:02Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-07T11:32:03Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:32:03Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:32:03Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:32:03Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:32:03Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:32:03Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:32:03Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:32:18Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:32:18Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:32:18Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T11:32:18Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-07T11:32:19Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-07T11:32:19Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-07T11:32:19Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-07T11:32:19Z"}
+{"level":"error","msg":"Provider connection error unexpected EOF, retrying in 540.106579ms","providerName":"docker","time":"2022-06-07T22:30:18Z"}
+{"level":"error","msg":"Failed to retrieve information of the docker client and server host: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?","providerName":"docker","time":"2022-06-07T22:30:19Z"}
+{"level":"error","msg":"Provider connection error Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?, retrying in 1.077730978s","providerName":"docker","time":"2022-06-07T22:30:19Z"}
+{"level":"error","msg":"Failed to retrieve information of the docker client and server host: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?","providerName":"docker","time":"2022-06-07T22:30:20Z"}
+{"level":"error","msg":"Provider connection error Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?, retrying in 879.674038ms","providerName":"docker","time":"2022-06-07T22:30:20Z"}
+{"level":"error","msg":"Failed to retrieve information of the docker client and server host: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?","providerName":"docker","time":"2022-06-07T22:30:21Z"}
+{"level":"error","msg":"Provider connection error Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?, retrying in 1.927800337s","providerName":"docker","time":"2022-06-07T22:30:21Z"}
+{"level":"error","msg":"Failed to retrieve information of the docker client and server host: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?","providerName":"docker","time":"2022-06-07T22:30:23Z"}
+{"level":"error","msg":"Provider connection error Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?, retrying in 2.104342339s","providerName":"docker","time":"2022-06-07T22:30:23Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-08T02:06:38Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:06:38Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:06:38Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:06:38Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:06:38Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:06:38Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:06:38Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:30:30Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:30:30Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:30:30Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:48Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:48Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:31:48Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:31:48Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:31:48Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:49Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:49Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:50Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:50Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:31:50Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:31:50Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:31:50Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:51Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:51Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:53Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:31:53Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:31:53Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:31:53Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:31:55Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:31:55Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:31:55Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:57Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:31:57Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:32:04Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:32:04Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:32:17Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:32:17Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:32:43Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:32:43Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:33:35Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:33:35Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:33:35Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:33:35Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:33:37Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:33:37Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:33:37Z"}
+{"container":"db-my-app-721103a42e0160ea0f03e94d19eaa26e21329e75c91ce80d4948553f99cbd9da","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:05Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:34:05Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:34:05Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:34:05Z"}
+{"container":"db-my-app-1b83b060ed63b5628b4cb215abfa8319474c75eceec6d78b96a0dd20c906b7d4","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:20Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:34:21Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:34:21Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:34:21Z"}
+{"container":"db-my-app-1b83b060ed63b5628b4cb215abfa8319474c75eceec6d78b96a0dd20c906b7d4","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:21Z"}
+{"container":"db-my-app-1b83b060ed63b5628b4cb215abfa8319474c75eceec6d78b96a0dd20c906b7d4","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:21Z"}
+{"container":"db-my-app-1b83b060ed63b5628b4cb215abfa8319474c75eceec6d78b96a0dd20c906b7d4","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:21Z"}
+{"container":"db-my-app-1b83b060ed63b5628b4cb215abfa8319474c75eceec6d78b96a0dd20c906b7d4","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:21Z"}
+{"container":"db-my-app-1b83b060ed63b5628b4cb215abfa8319474c75eceec6d78b96a0dd20c906b7d4","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:22Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:34:23Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:34:23Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:34:23Z"}
+{"container":"db-my-app-1b83b060ed63b5628b4cb215abfa8319474c75eceec6d78b96a0dd20c906b7d4","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:23Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:34:25Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:34:25Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:34:25Z"}
+{"container":"db-my-app-1b83b060ed63b5628b4cb215abfa8319474c75eceec6d78b96a0dd20c906b7d4","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:26Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:34:27Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:34:27Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:34:27Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:34:29Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:34:29Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:34:29Z"}
+{"container":"db-my-app-1b83b060ed63b5628b4cb215abfa8319474c75eceec6d78b96a0dd20c906b7d4","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:34:29Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:34:31Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:34:31Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:34:31Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:05Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:06Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:06Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:06Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:06Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:06Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:06Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:07Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:08Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:08Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:08Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:08Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:09Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:10Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:11Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:11Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:11Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:12Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:12Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:12Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:14Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:14Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:14Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:14Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:21Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:21Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:21Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:21Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:23Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:23Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:23Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:23Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:28Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:28Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:28Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:28Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:35:34Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:35Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:35Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:35Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:35:36Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:35:36Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:35:36Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:01Z"}
+{"container":"db-my-app-84ca54d496c98b1840e4cdbac492d9db4379016c61237fc80892f7b9ac5654d0","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:01Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:36:23Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:36:23Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:36:23Z"}
+{"container":"db-my-app-6c2810db99b794baab0f3e0816d79382c2aa0c3a3b167449903e3305282cad42","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:23Z"}
+{"container":"db-my-app-6c2810db99b794baab0f3e0816d79382c2aa0c3a3b167449903e3305282cad42","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:23Z"}
+{"container":"db-my-app-6c2810db99b794baab0f3e0816d79382c2aa0c3a3b167449903e3305282cad42","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:23Z"}
+{"container":"db-my-app-6c2810db99b794baab0f3e0816d79382c2aa0c3a3b167449903e3305282cad42","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:24Z"}
+{"container":"db-my-app-6c2810db99b794baab0f3e0816d79382c2aa0c3a3b167449903e3305282cad42","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:24Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T02:36:24Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T02:36:24Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T02:36:24Z"}
+{"container":"db-my-app-6c2810db99b794baab0f3e0816d79382c2aa0c3a3b167449903e3305282cad42","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:26Z"}
+{"container":"db-my-app-6c2810db99b794baab0f3e0816d79382c2aa0c3a3b167449903e3305282cad42","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:26Z"}
+{"container":"db-my-app-6c2810db99b794baab0f3e0816d79382c2aa0c3a3b167449903e3305282cad42","level":"error","msg":"service \"db-my-app\" error: unable to find the IP address for the container \"/my-app_db_1\": the server is ignored","providerName":"docker","time":"2022-06-08T02:36:27Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T03:22:12Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T03:22:12Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T03:22:12Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T03:22:12Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T03:22:30Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T03:22:30Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T03:22:30Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T03:22:43Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T03:22:43Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T03:22:43Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T03:22:43Z"}
+{"level":"error","msg":"Provider connection error unexpected EOF, retrying in 509.633491ms","providerName":"docker","time":"2022-06-08T07:10:21Z"}
+{"level":"error","msg":"Failed to retrieve information of the docker client and server host: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?","providerName":"docker","time":"2022-06-08T07:10:21Z"}
+{"level":"error","msg":"Provider connection error Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?, retrying in 863.757706ms","providerName":"docker","time":"2022-06-08T07:10:21Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-08T07:10:21Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-08T07:10:21Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-08T07:10:21Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-08T07:10:21Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-08T07:10:21Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-08T07:10:21Z"}
+{"level":"error","msg":"Cannot connect to docker server context canceled","providerName":"docker","time":"2022-06-08T07:10:21Z"}
+{"level":"error","msg":"The ACME resolver \"le\" is skipped from the resolvers list because: unable to get ACME account: permissions 777 for acme.json are too open, please use 600","time":"2022-06-08T07:37:13Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:37:13Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:37:13Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:37:13Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:37:13Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:37:13Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:37:13Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T07:37:13Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:38:06Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:38:06Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:38:06Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:38:24Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:38:24Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:38:24Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T07:38:24Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:42:25Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:42:25Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:42:25Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:42:29Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:42:29Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:42:29Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T07:42:29Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:42:49Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:42:49Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:42:49Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T07:42:49Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:43:45Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:43:45Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:43:45Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:43:49Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:43:49Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:43:49Z"}
+{"level":"error","msg":"the router chrome@docker uses a non-existent resolver: le","time":"2022-06-08T07:43:49Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:45:34Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:45:34Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:45:34Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:45:46Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:45:46Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:45:46Z"}
+{"level":"error","msg":"the router chrome@docker uses a non-existent resolver: le","time":"2022-06-08T07:45:46Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:47:22Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:47:22Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:47:22Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:48:01Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:48:01Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:48:01Z"}
+{"level":"error","msg":"the router chrome@docker uses a non-existent resolver: le","time":"2022-06-08T07:48:01Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:58:54Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:58:54Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:58:54Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:58:58Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:58:58Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:58:58Z"}
+{"level":"error","msg":"the router chrome@docker uses a non-existent resolver: le","time":"2022-06-08T07:58:58Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:59:20Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:59:20Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:59:20Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T07:59:27Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T07:59:27Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T07:59:27Z"}
+{"level":"error","msg":"the router chrome@docker uses a non-existent resolver: le","time":"2022-06-08T07:59:27Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T08:05:16Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T08:05:16Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T08:05:16Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T11:09:05Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T11:09:05Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T11:09:05Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T11:09:05Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T11:10:39Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T11:10:39Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T11:10:39Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T11:13:49Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T11:13:49Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T11:13:49Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T11:13:49Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T11:19:35Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T11:19:35Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T11:19:35Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T11:19:39Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T11:19:39Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T11:19:39Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T11:19:39Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T11:19:57Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T11:19:57Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T11:19:57Z"}
+{"container":"nostalgic-einstein-0462ad544d935de55c87f3665182073d2b36af795333135a86670a6e97ea3b26","level":"error","msg":"service \"nostalgic-einstein\" error: port is missing","providerName":"docker","time":"2022-06-08T11:30:49Z"}
+{"container":"nifty-golick-800ddda1878b581494fa99a04fd258aeecc8d84c907ecad2ed734704f2303e5d","level":"error","msg":"service \"nifty-golick\" error: port is missing","providerName":"docker","time":"2022-06-08T11:31:56Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-06-08T11:32:13Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-06-08T11:32:13Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-06-08T11:32:13Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-06-08T11:32:13Z"}
+{"entryPointName":"websecure","level":"error","msg":"accept tcp [::]:443: use of closed network connection","time":"2022-06-09T02:25:25Z"}
+{"entryPointName":"web","level":"error","msg":"accept tcp [::]:80: use of closed network connection","time":"2022-06-09T02:25:25Z"}
+{"entryPointName":"traefik","level":"error","msg":"accept tcp [::]:8080: use of closed network connection","time":"2022-06-09T02:25:25Z"}
+{"entryPointName":"websecure","level":"error","msg":"close tcp [::]:443: use of closed network connection","time":"2022-06-09T02:25:25Z"}
+{"entryPointName":"web","level":"error","msg":"close tcp [::]:80: use of closed network connection","time":"2022-06-09T02:25:25Z"}
+{"entryPointName":"traefik","level":"error","msg":"close tcp [::]:8080: use of closed network connection","time":"2022-06-09T02:25:25Z"}

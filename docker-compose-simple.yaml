@@ -1,23 +1,23 @@
 version: "3"
 services:
-  build-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
-      - 6006:3000
-  build-app-nginx:
-    build:
-      context: .
-      dockerfile: Dockerfile.simple
-    ports:
-      - 6006:80
+  # build-app:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - 6006:3000
+  # build-app-nginx:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.simple
+  #   ports:
+  #     - 6006:80
   build-app-nginx-router:
     build:
       context: .
       dockerfile: Dockerfile.router
-    ports:
-      - 6006:80
+    # ports:
+    #   - 6006:80
     labels:
       # 为 cra 配置我们的自定义域名
       - "traefik.http.routers.cra.rule=Host(`more.test.local`)"

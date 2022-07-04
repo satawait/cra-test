@@ -1,0 +1,13 @@
+version: "3"
+services:
+  chrome:
+    image: browserless/chrome
+    restart: always
+    ports:
+      - 8000:3000
+    labels:
+      # 为 cra 配置我们的自定义域名
+      - "traefik.http.routers.chrome.rule=Host(`chromeless.xingbang.local`)"
+      # 设置 https，此时我们的 certresolver 为 le，与上篇文章配置保持一致
+      - traefik.http.routers.chrome.tls=true
+      - traefik.http.routers.chrome.tls.certresolver=le
