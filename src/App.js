@@ -7,7 +7,7 @@ function Home() {
     <div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>当前在 Home 页面哦~~</h1>
+        <h1>当前在 Home 页面哈~~~</h1>
         <Link to="/about" className="App-link">About</Link>
       </header>
     </div>
@@ -19,7 +19,7 @@ function About() {
     <div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>当前在 About 页面哦~~</h1>
+        <h1>当前在 About 页面哈~~~</h1>
         <Link to="/" className="App-link">Home</Link>
       </header>
     </div>
