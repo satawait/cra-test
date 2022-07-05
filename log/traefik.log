@@ -1006,3 +1006,63 @@
 {"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:21:41Z"}
 {"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:21:41Z"}
 {"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-07-04T11:21:41Z"}
+{"level":"error","msg":"Router defined multiple times with different configurations in [node-app-my-vue-app-ssr-e1e0a67802bdfe604cb728471cc794224e67eb9f49e6ffbe2a7a9d9e4566602c node-app-myapp-33a74b16e33114a4e24b130ee7886debd212ab998c619217df51545526ce5438]","providerName":"docker","routerName":"cra","time":"2022-07-04T11:23:02Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:23:02Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:23:02Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:23:02Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:23:30Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:23:30Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:23:30Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-07-04T11:23:30Z"}
+{"level":"error","msg":"Router defined multiple times with different configurations in [node-app-my-vue-app-ssr-5dea9851394157fcf1ab95f010bed0eba8920aa83b4a2cdcb819f2a35cffcf74 node-app-myapp-33a74b16e33114a4e24b130ee7886debd212ab998c619217df51545526ce5438]","providerName":"docker","routerName":"cra","time":"2022-07-04T11:29:21Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:29:21Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:29:21Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:29:21Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:31:47Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:31:47Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:31:47Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-07-04T11:31:47Z"}
+{"level":"error","msg":"Router defined multiple times with different configurations in [node-app-my-vue-app-ssr-5dea9851394157fcf1ab95f010bed0eba8920aa83b4a2cdcb819f2a35cffcf74 node-app-myapp-33a74b16e33114a4e24b130ee7886debd212ab998c619217df51545526ce5438]","providerName":"docker","routerName":"cra","time":"2022-07-04T11:31:57Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:31:57Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:31:57Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:31:57Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:33:29Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:33:29Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:33:29Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-07-04T11:33:29Z"}
+{"level":"error","msg":"Router defined multiple times with different configurations in [node-app-my-vue-app-ssr-5e27ea7190cd4e5daa74213b28520bc17cba41e9cbb81811dde8067027d10793 node-app-myapp-33a74b16e33114a4e24b130ee7886debd212ab998c619217df51545526ce5438]","providerName":"docker","routerName":"cra","time":"2022-07-04T11:36:11Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:36:11Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:36:11Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:36:11Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:40:43Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:40:43Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:40:43Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-07-04T11:40:43Z"}
+{"level":"error","msg":"Router defined multiple times with different configurations in [node-app-my-vue-app-ssr-634eb1c0ed354fe6b1870d19978230f9211747a990c6b046e64237d534d672f1 node-app-myapp-33a74b16e33114a4e24b130ee7886debd212ab998c619217df51545526ce5438]","providerName":"docker","routerName":"cra","time":"2022-07-04T11:42:26Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:42:26Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:42:26Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:42:26Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:42:52Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:42:52Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:42:52Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-07-04T11:42:52Z"}
+{"level":"error","msg":"Router defined multiple times with different configurations in [node-app-my-vue-app-ssr-634eb1c0ed354fe6b1870d19978230f9211747a990c6b046e64237d534d672f1 node-app-myapp-33a74b16e33114a4e24b130ee7886debd212ab998c619217df51545526ce5438]","providerName":"docker","routerName":"cra","time":"2022-07-04T11:42:56Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:42:56Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:42:56Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:42:56Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:44:41Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:44:41Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:44:41Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-07-04T11:44:41Z"}
+{"level":"error","msg":"Router defined multiple times with different configurations in [node-app-my-vue-app-ssr-634eb1c0ed354fe6b1870d19978230f9211747a990c6b046e64237d534d672f1 node-app-myapp-c17df415a659c9c796d280b414a17845541b501bb622b340eb1a1102e86bf748]","providerName":"docker","routerName":"cra","time":"2022-07-04T11:45:10Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:45:10Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:45:10Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:45:10Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:45:41Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:45:41Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:45:41Z"}
+{"level":"error","msg":"the router cra@docker uses a non-existent resolver: le","time":"2022-07-04T11:45:41Z"}
+{"level":"error","msg":"Router defined multiple times with different configurations in [node-app-my-vue-app-ssr-634eb1c0ed354fe6b1870d19978230f9211747a990c6b046e64237d534d672f1 node-app-myapp-676089dbf7b4aa234bf9894f0ae7decf3cfdcc781035527bc821fa285bd4fdbc]","providerName":"docker","routerName":"cra","time":"2022-07-04T11:45:57Z"}
+{"entryPointName":"metrics","level":"error","msg":"entryPoint \"metrics\" doesn't exist","routerName":"prometheus@internal","time":"2022-07-04T11:45:57Z"}
+{"level":"error","msg":"no valid entryPoint for this router","routerName":"prometheus@internal","time":"2022-07-04T11:45:57Z"}
+{"entryPointName":"web","level":"error","msg":"HTTP challenge is not enabled","routerName":"acme-http@internal","time":"2022-07-04T11:45:57Z"}
